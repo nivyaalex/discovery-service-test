@@ -2,7 +2,7 @@
     "swagger": "2.0",
     "info": {
       "version": "1.0.8",
-      "title": "Swagger Petstore - updated name",
+      "title": "Swagger Petstore",
       "description": "A sample API that uses a petstore as an example to demonstrate features in the swagger-2.0 specification.",
       "contact": {
         "name": "Swagger API Team",
