@@ -3,8 +3,9 @@ name: Sync Discovered API with ApiConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: us-east-a.apiconnect.preprod.automation.ibm.com
-  PROVIDER_ORG: nivya
+  API_HOST: us-east-b.apiconnect.test.automation.ibm.com
+  PLATFORM_API_PREFIX: platform-api
+  PROVIDER_ORG: test224518
   #API_FILES: gmail-api.json
   #API_FILES: gmail-api.json,mit-api.json,gmail-api.yaml,APIfolder/uber-api.json
   API_FOLDERS: APIfolder
