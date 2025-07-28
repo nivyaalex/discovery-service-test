@@ -7,7 +7,8 @@ env:
   PLATFORM_API_PREFIX: platform-api
   INSECURE_SKIP_TLS_VERIFY: true
   PROVIDER_ORG: test224518
-  API_FILES: gmail-api.json,APIfolderTwo/echo-api.json
+  API_FILES: gmail-api.json
+  # API_FILES: gmail-api.json,APIfolderTwo/echo-api.json
   #API_FOLDERS: APIfolder,APIfolderTwo
 
 jobs:
