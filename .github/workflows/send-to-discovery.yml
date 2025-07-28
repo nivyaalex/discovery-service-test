@@ -4,6 +4,7 @@ on: [pull_request, workflow_dispatch, push]
 
 env:
   API_HOST: us-east-b.apiconnect.test.automation.ibm.com
+  PLATFORM_API_PREFIX: platform-api
   PROVIDER_ORG: test224518
   API_FILES: gmail-api.json,APIfolderTwo/echo-api.json
   #API_FOLDERS: APIfolder,APIfolderTwo
