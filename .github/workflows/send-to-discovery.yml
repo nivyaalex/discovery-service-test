@@ -5,6 +5,7 @@ on: [pull_request, workflow_dispatch, push]
 env:
   API_HOST: us-east-b.apiconnect.test.automation.ibm.com
   PLATFORM_API_PREFIX: platform-api
+  INSECURE_SKIP_TLS_VERIFY: true
   PROVIDER_ORG: test224518
   API_FILES: gmail-api.json,APIfolderTwo/echo-api.json
   #API_FOLDERS: APIfolder,APIfolderTwo
@@ -23,6 +24,7 @@ jobs:
       with:
         api_host: ${{ env.API_HOST }}
         provider_org: ${{ env.PROVIDER_ORG }}
+        insecure_skip_tls_verify: ${{ env.INSECURE_SKIP_TLS_VERIFY }}
         api_key: ${{ secrets.apicApikey }}
         if: env.API_FILES
         api_files: ${{ env.API_FILES }}
